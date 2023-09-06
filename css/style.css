@@ -1,0 +1,42 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin: 15px;
+    font-size: 15px;
+}
+
+.menu li a:hover{
+    color: white;
+    background-color: #5BC241;
+}
+
+.menu li a.btn{
+    border-radius: 10px;
+    background-color: #5BC241;
+    color: #fff;
+    margin-left: 20px;
+    padding: 10px 20px;
+}
